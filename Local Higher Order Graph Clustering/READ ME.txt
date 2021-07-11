@@ -1,0 +1,18 @@
+src:
+ClusteringAlgorithms.java
+
+Input : 
+First line of the input gives #Nodes(V) and #Edges(E) in the graph.
+The remaining line give the edge list.
+
+Output :
+The corresponding Cluster Set and execution times in the following order:
+	1.Global-Motif Based Clustering Algorithm.
+	2.Local-Motif Based Clustering Algorithm.
+	3.Local-Edge Based Clustering Algorithm.
+NOTE :
+Use "Dataset_M7.txt" for M7, "Dataset_M2.txt" and "Dataset_M2_Alternate.txt" for M2.
+For changing the input file (Graph): Modify line 28.
+For changing the seed node (Default : 1 //According to graph and Motif) : Modify line 26.
+Change 'alpha=0.98 (default)' at line 24
+Change 'epsilon=0.0001 (default)' at line 25
